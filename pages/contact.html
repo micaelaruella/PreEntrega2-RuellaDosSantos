@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/styless.css">
+    <link rel="icon" href="../icons/icon.png"> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Inicio cabecera -->
+    <header id="header">
+        <div class="header-top">
+            <div class="container" id="logo">
+                <a href="../index.html" class="enlace-logo">
+                    <img src="../img/logo.jpg" alt="logo" class="logo">
+                </a>
+            </div>
+        </div>
+        <div class="container main-menu">
+            <nav id="navbar-menu-container">
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <ul class="nav-menu">
+                    <li><a class="menu-link" href="../index.html">Inicio</a></li>
+                    <li><a class="menu-link" href="./shop.html">Shop</a></li>
+                    <li><a class="menu-link" href="./local.html">Locales</a></li>
+                    <li><a class="menu-link" href="./FAQs.html">Preguntas</a></li>
+                    <!-- <li><a class="menu-link" href="./FAQs.html">+ info</a></li> p/hacer: hacerlo menú desplegable c/sizes/local/FAQs-->
+                    <li><a class="menu-link active" href="./contact.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Fin de cabecera -->
+    <main>
+        <section class="page-header section-title">
+            <div class="text-center">
+                <h1>Contacto</h1>   
+            </div>
+        </section>
+        <section class="contact-page">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <!-- <ul class="contact-info">
+                            <li class="contact-item">
+                                <i class="fa-brands fa-whatsapp"></i>
+                                <a href="#">5491100001217</a>
+                            </li>
+                            <li class="contact-item">
+                                <i class="fa-solid fa-phone"></i>
+                                <a href="#">44510000</a>
+                            </li>
+                            <li class="contact-item">
+                                <i class="fa-solid fa-envelope"></i>
+                                <a href="mailto:oriannaswimwear@gmail.com">oriannaswimwear@gmail.com</a>
+                            </li>
+                            <li class="contact-item">
+                                <i class="fa-solid fa-location-dot"></i>
+                                "Conesa 1298 - Paunero 1434"
+                            </li>
+                        </ul> -->
+                    </div>
+                </div>
+                <div class="row">
+                    <form id="form" required>
+                        <div class="container" id="form-content">
+                            <label id="name-label">
+                                <input id="name" type="text" placeholder="Nombre" required>
+                            </label>
+                            <label id="email-label" for="email">
+                                <input id="email" type="email" placeholder="Apellido" required>
+                            </label>                                            
+                            <label id="number-label">
+                                <input id="number" type="number" placeholder="Teléfono" required>
+                            </label>
+                            <label id="email-label" for="email">
+                                <input id="email" type="email" placeholder="Email" required>
+                            </label>
+                            <textarea id="comments" class="textarea" placeholder="Mensaje"></textarea>
+                        </div>  
+                        <div class="boton">
+                            <button type="submit" id="submit" class="button">Enviar</button>
+                        </div>  
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Fin inicio principal -->
+    <!-- Inicio pie de página -->
+    <footer>
+        <section>        
+            <a href="#logo">Ir al comienzo</a><br>
+            <a href="mailto:oriannaswimwear@gmail.com">Haz click para contactarnos</a>
+        </section>
+        <p>&copy; Copyright Orianna Swimwear - 2023</p> 
+        <p>Todos los derechos reservados.</p>
+    </footer>
+    <!-- Fin pie de página -->    
+    
+</body>
+</html>

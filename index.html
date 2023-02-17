@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTSPOrianna - Swimwear</title>
+    <link rel="icon" href="./icons/icon.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+    
+    <!--boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!--css main-->
+    <link rel="stylesheet" href="./css/styless.css">
+
+</head>
+<body>
+    <!-- Inicio cabecera -->
+    <header id="header">   
+        <!-- Navbar --> 
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+            <div class="container-fluid">
+                <!-- <div class="buscador">
+                    <div class="form-group search-container form-vertical-align mb-0"></div>
+                    <input class="form-control search-input" type="search" placeholder="Buscar">
+                    <button type="submit" class="search-input-submit">
+                        <i class="fal fa-search"></i>
+                    </button> 
+                </div>  -->
+                <div id="logo" class="logo-img-container">
+                    <a href="./index.html">
+                        <img src="./img/logo.jpg" alt="logo" class="logo-img">
+                    </a>  
+                </div>
+                
+                <div class="toggler">
+                    <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    >
+                    <span class="navbar-toggler-icon"></span>
+                    </button>   
+                </div>
+                
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="mx-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Locales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Preguntas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+        
+                    </ul>
+                </div>
+            </div>
+        </nav>         
+    <!-- Banner Image  -->
+    <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
+        <div class="content text-center">
+            <h1 class="text-white text-banner">Coleccion 2023</h1>
+        </div>
+    </div>        
+    </header>
+    
+    <main>
+        <!-- Inicio de banner home -->
+        <!-- p/hacer: slider para mobile-->
+        <section id="banner-card">
+            <div class="container" id="banner-container">
+                <div class="card card-img1">
+                    <div class="content-banner-card">
+                        <h2>Bikinis</h2>
+                        <a href="#">Ver productos</a><!-- falta dar ruta-->
+                    </div>
+                </div>
+                <div class="card card-img2">
+                    <div class="content-banner-card">
+                        <h2>Enteros</h2>
+                        <a href="#">Ver productos</a><!-- falta dar ruta-->
+                    </div>
+                </div>
+                <div class="card card-img3">
+                    <div class="content-banner-card">
+                        <h2>Accesorios</h2>
+                        <a href="#">Ver productos</a><!-- falta dar ruta-->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Fin de banner home -->
+        <!-- Sección de instagram-->
+        <section id="instafeed">
+            <div class="container">
+                <div class="row-gral ">
+                    <div class="col">
+                        <a target="_blank" href="https://www.instagram.com/micaelaruella/" class="instafeed-title">
+                            <i class="fab fa-2x fa-instagram"></i>                  
+                        </a>  
+                    </div>
+                    <div class="col">
+                        <a target="_blank" href="https://www.instagram.com/micaelaruella/" class="instafeed-title">
+                            <div class="instafeed-title-user"><h2>oriannaswimwear</h2></div>                   
+                        </a>  
+                    </div>
+                </div> 
+            </div>
+            </div>
+        </section>
+        <!-- Fin sección de instagram-->
+        <!-- Inicio de productos destacados -->
+        <section id="featured-products">
+            <div class="main-titles">
+                <h2>Productos destacados</h2>
+            </div>
+            <div class="container" id="featured-container">          
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="item">
+                            <figure>
+                                <img src="./img/anivia.jpg" alt="anivia">
+                            </figure>
+                            <div class="contenido-item">
+                                <h3 class="nombre-item">Nombre</h3>
+                                <p class="precio-item">$precio</p>
+                                <p class="promo-cuotas">Hasta <span class="negrita">3</span> cuotas</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="item">
+                            <figure>
+                                <img src="./img/annie.jpg" alt="annie">
+                            </figure>
+                            <div class="contenido-item">
+                                <h3 class="nombre-item">Nombre</h3>
+                                <p class="precio-item">$precio</p>
+                                <p class="promo-cuotas">Hasta <span class="negrita">3</span> cuotas</p>
+                            </div>                              
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="item">
+                            <figure>
+                                <img src="./img/ashe.jpg" alt="ashe">
+                            </figure>
+                            <div class="contenido-item">
+                                <h3 class="nombre-item">Nombre</h3>
+                                <p class="precio-item">$precio</p>
+                                <p class="promo-cuotas">Hasta <span class="negrita">3</span> cuotas</p>
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="item">
+                            <figure>
+                                <img src="./img/camille.jpg" alt="camille">
+                            </figure>
+                            <div class="contenido-item">
+                                <h3 class="nombre-item">Nombre</h3>
+                                <p class="precio-item">$precio</p>
+                                <p class="promo-cuotas">Hasta <span class="negrita">3</span> cuotas</p>
+                            </div>   
+                        </div> 
+                    </div>
+                    <div class="col">
+                        <div class="item">
+                            <figure>
+                                <img src="./img/camille.jpg" alt="camille">
+                            </figure>
+                            <div class="contenido-item">
+                                <h3 class="nombre-item">Nombre</h3>
+                                <p class="precio-item">$precio</p>
+                                <p class="promo-cuotas">Hasta <span class="negrita">3</span> cuotas</p>
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="item">
+                            <figure>
+                                <img src="./img/camille.jpg" alt="camille">
+                            </figure>
+                            <div class="contenido-item">
+                                <h3 class="nombre-item">Nombre</h3>
+                                <p class="precio-item">$precio</p>
+                                <p class="promo-cuotas">Hasta <span class="negrita">3</span> cuotas</p>
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="item">
+                            <figure>
+                                <img src="./img/camille.jpg" alt="camille">
+                            </figure>
+                            <div class="contenido-item">
+                                <h3 class="nombre-item">Nombre</h3>
+                                <p class="precio-item">$precio</p>
+                                <p class="promo-cuotas">Hasta <span class="negrita">3</span> cuotas</p>
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="item">
+                            <figure>
+                                <img src="./img/camille.jpg" alt="camille">
+                            </figure>
+                            <div class="contenido-item">
+                                <h3 class="nombre-item">Nombre</h3>
+                                <p class="precio-item">$precio</p>
+                                <p class="promo-cuotas">Hasta <span class="negrita">3</span> cuotas</p>
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="item">
+                            <figure>
+                                <img src="./img/camille.jpg" alt="camille">
+                            </figure>
+                            <div class="contenido-item">
+                                <h3 class="nombre-item">Nombre</h3>
+                                <p class="precio-item">$precio</p>
+                                <p class="promo-cuotas">Hasta <span class="negrita">3</span> cuotas</p>
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="item">
+                            <figure>
+                                <img src="./img/camille.jpg" alt="camille">
+                            </figure>
+                            <div class="contenido-item">
+                                <h3 class="nombre-item">Nombre</h3>
+                                <p class="precio-item">$precio</p>
+                                <p class="promo-cuotas">Hasta <span class="negrita">3</span> cuotas</p>
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="item">
+                            <figure>
+                                <img src="./img/camille.jpg" alt="camille">
+                            </figure>
+                            <div class="contenido-item">
+                                <h3 class="nombre-item">Nombre</h3>
+                                <p class="precio-item">$precio</p>
+                                <p class="promo-cuotas">Hasta <span class="negrita">3</span> cuotas</p>
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="item">
+                            <figure>
+                                <img src="./img/camille.jpg" alt="camille">
+                            </figure>
+                            <div class="contenido-item">
+                                <h3 class="nombre-item">Nombre</h3>
+                                <p class="precio-item">$precio</p>
+                                <p class="promo-cuotas">Hasta <span class="negrita">3</span> cuotas</p>
+                            </div>   
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Fin de productos destacados -->
+    </main>
+
+    <!-- Link js-->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        var nav = document.querySelector('nav');
+
+        window.addEventListener('scroll', function() {
+            if(window.pageYOffset > 100){
+                nav.classList.add('bg-white', 'shadow');
+            }else{
+                nav.classList.remove('bg-white', 'shadow');
+            }
+        });
+    </script>
+</body>
+</html>

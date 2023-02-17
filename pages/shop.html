@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="icon" href="../icons/icon.png"> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <!--boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!--css main-->
+    <link rel="stylesheet" href="../css/styless.css">
+</head>
+<body>
+    <!-- Inicio cabecera -->
+    <header id="header">      
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <div id="logo">
+                    <a href="../index.html" class="enlace-logo">
+                        <img src="../img/logo.jpg" alt="logo" class="navbar-brand logo">
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                        <a class="nav-link active" href="./shop.html">Shop</a>
+                        <a class="nav-link" href="./local.html">Locales</a>
+                        <a class="nav-link" href="./FAQs.html">Preguntas</a>
+                        <a class="nav-link" href="./contact.html">Contacto</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Fin cabecera -->
+    <!-- Inicio principal -->
+    <main>
+        <!-- Sección hero slider -->
+        <!-- <section id="hero"> //corregir cuando está p/mobile 
+            <div class="container" id="hero-content">                
+                <input type="radio" name="img-slide" id="slide1" hidden>
+                <input type="radio" name="img-slide" id="slide2" hidden>
+                <input type="radio" name="img-slide" id="slide3" hidden>
+                <div class="slide">
+                    <div class="item-slide">
+                        <img id="img-slide" src="../img/slider2.jpg" alt="">
+                    </div>
+                    <div class="item-slide">
+                        <img id="img-slide" src="../img/slider3.jpg" alt="">
+                    </div>
+                    <div class="item-slide">
+                        <img  id="img-slide" src="../img/slider4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="slider">
+                    <label for="slide1" class="slider-item">
+                        <img src="../img/slider2.jpg" alt="">
+                    </label>
+                    <label for="slide2" class="slider-item">
+                        <img src="../img/slider3.jpg" alt="">
+                    </label>
+                    <label for="slide3" class="slider-item">
+                        <img src="../img/slider4.jpg" alt="">
+                    </label>
+                </div>
+            </div>
+        </section> -->
+        <!-- Fin sección hero slider -->
+        <!-- Sección shop -->
+        <!-- p/hacer: hacer cards para productos e intentar hacer el mostrar más productos -->
+        <section class="page-header section-title">
+            <div class="text-center">
+                <h1>Productos</h1>   
+            </div>
+        </section>
+        <!-- <div class="col-12 col-md-3">
+            <div class="form-row align-items-center category-controls">
+                <div class="col-12 col-md-8 offset-md-2">
+                    <div class="form-group mb-0">
+                        <select class="form-select">
+                            <p>Más viejo al más nuevo</p>
+                        </select>
+                        <div class="form-control-icon">
+                            <i class="fa-thin fa-arrow-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <section id="shop">
+            <div class="container-item text-center" id="shop-container">          
+                <div class="row-item">
+                    <div class="col-item">
+                        <div class="item">
+                            <figure>
+                                <img src="../img/anivia.jpg" alt="anivia">
+                            </figure>
+                            <div class="contenido-item">
+                                <h3 class="nombre-item">Nombre</h3>
+                                <p class="precio-item">$precio</p>
+                                <p class="promo-cuotas">Hasta <span class="negrita">3</span> cuotas</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-item">
+                        <div class="item">
+                            <figure>
+                                <img src="../img/annie.jpg" alt="annie">
+                            </figure>
+                            <div class="contenido-item">
+                                <h3 class="nombre-item">Nombre</h3>
+                                <p class="precio-item">$precio</p>
+                                <p class="promo-cuotas">Hasta <span class="negrita">3</span> cuotas</p>
+                            </div>                              
+                        </div>
+                    </div>
+                    <div class="col-item">
+                        <div class="item">
+                            <figure>
+                                <img src="../img/ashe.jpg" alt="ashe">
+                            </figure>
+                            <div class="contenido-item">
+                                <h3 class="nombre-item">Nombre</h3>
+                                <p class="precio-item">$precio</p>
+                                <p class="promo-cuotas">Hasta <span class="negrita">3</span> cuotas</p>
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="col-item">
+                        <div class="item">
+                            <figure>
+                                <img src="../img/camille.jpg" alt="camille">
+                            </figure>
+                            <div class="contenido-item">
+                                <h3 class="nombre-item">Nombre</h3>
+                                <p class="precio-item">$precio</p>
+                                <p class="promo-cuotas">Hasta <span class="negrita">3</span> cuotas</p>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+                <div class="row-item">
+                    <div class="col-item">
+                        <div class="item">
+                            <figure>
+                                <img src="../img/anivia.jpg" alt="anivia">
+                            </figure>
+                            <div class="contenido-item">
+                                <h3 class="nombre-item">Nombre</h3>
+                                <p class="precio-item">$precio</p>
+                                <p class="promo-cuotas">Hasta <span class="negrita">3</span> cuotas</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-item">
+                        <div class="item">
+                            <figure>
+                                <img src="../img/annie.jpg" alt="annie">
+                            </figure>
+                            <div class="contenido-item">
+                                <h3 class="nombre-item">Nombre</h3>
+                                <p class="precio-item">$precio</p>
+                                <p class="promo-cuotas">Hasta <span class="negrita">3</span> cuotas</p>
+                            </div>                              
+                        </div>
+                    </div>
+                    <div class="col-item">
+                        <div class="item">
+                            <figure>
+                                <img src="../img/ashe.jpg" alt="ashe">
+                            </figure>
+                            <div class="contenido-item">
+                                <h3 class="nombre-item">Nombre</h3>
+                                <p class="precio-item">$precio</p>
+                                <p class="promo-cuotas">Hasta <span class="negrita">3</span> cuotas</p>
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="col-item">
+                        <div class="item">
+                            <figure>
+                                <img src="../img/camille.jpg" alt="camille">
+                            </figure>
+                            <div class="contenido-item">
+                                <h3 class="nombre-item">Nombre</h3>
+                                <p class="precio-item">$precio</p>
+                                <p class="promo-cuotas">Hasta <span class="negrita">3</span> cuotas</p>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+                <div class="row-item">
+                    <div class="col-item">
+                        <div class="item">
+                            <figure>
+                                <img src="../img/anivia.jpg" alt="anivia">
+                            </figure>
+                            <div class="contenido-item">
+                                <h3 class="nombre-item">Nombre</h3>
+                                <p class="precio-item">$precio</p>
+                                <p class="promo-cuotas">Hasta <span class="negrita">3</span> cuotas</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-item">
+                        <div class="item">
+                            <figure>
+                                <img src="../img/annie.jpg" alt="annie">
+                            </figure>
+                            <div class="contenido-item">
+                                <h3 class="nombre-item">Nombre</h3>
+                                <p class="precio-item">$precio</p>
+                                <p class="promo-cuotas">Hasta <span class="negrita">3</span> cuotas</p>
+                            </div>                              
+                        </div>
+                    </div>
+                    <div class="col-item">
+                        <div class="item">
+                            <figure>
+                                <img src="../img/ashe.jpg" alt="ashe">
+                            </figure>
+                            <div class="contenido-item">
+                                <h3 class="nombre-item">Nombre</h3>
+                                <p class="precio-item">$precio</p>
+                                <p class="promo-cuotas">Hasta <span class="negrita">3</span> cuotas</p>
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="col-item">
+                        <div class="item">
+                            <figure>
+                                <img src="../img/camille.jpg" alt="camille">
+                            </figure>
+                            <div class="contenido-item">
+                                <h3 class="nombre-item">Nombre</h3>
+                                <p class="precio-item">$precio</p>
+                                <p class="promo-cuotas">Hasta <span class="negrita">3</span> cuotas</p>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+                <div class="row-item">
+                    <div class="col-item">
+                        <div class="item">
+                            <figure>
+                                <img src="../img/anivia.jpg" alt="anivia">
+                            </figure>
+                            <div class="contenido-item">
+                                <h3 class="nombre-item">Nombre</h3>
+                                <p class="precio-item">$precio</p>
+                                <p class="promo-cuotas">Hasta <span class="negrita">3</span> cuotas</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-item">
+                        <div class="item">
+                            <figure>
+                                <img src="../img/annie.jpg" alt="annie">
+                            </figure>
+                            <div class="contenido-item">
+                                <h3 class="nombre-item">Nombre</h3>
+                                <p class="precio-item">$precio</p>
+                                <p class="promo-cuotas">Hasta <span class="negrita">3</span> cuotas</p>
+                            </div>                              
+                        </div>
+                    </div>
+                    <div class="col-item">
+                        <div class="item">
+                            <figure>
+                                <img src="../img/ashe.jpg" alt="ashe">
+                            </figure>
+                            <div class="contenido-item">
+                                <h3 class="nombre-item">Nombre</h3>
+                                <p class="precio-item">$precio</p>
+                                <p class="promo-cuotas">Hasta <span class="negrita">3</span> cuotas</p>
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="col-item">
+                        <div class="item">
+                            <figure>
+                                <img src="../img/camille.jpg" alt="camille">
+                            </figure>
+                            <div class="contenido-item">
+                                <h3 class="nombre-item">Nombre</h3>
+                                <p class="precio-item">$precio</p>
+                                <p class="promo-cuotas">Hasta <span class="negrita">3</span> cuotas</p>
+                            </div>   
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </section>
+        <!-- Fin de shop -->
+    </main>
+    <!-- Fin inicio principal -->
+    <!-- Inicio pie de página -->
+    <footer>
+        <section>        
+            <a href="#logo">Ir al comienzo</a><br>
+            <a href="mailto:oriannaswimwear@gmail.com">Haz click para contactarnos</a>
+   
+        </section>
+        <p>&copy; Copyright Orianna Swimwear - 2023</p> 
+        <p>Todos los derechos reservados.</p>
+    </footer>
+    <!-- Fin pie de página -->
+    <!-- Link js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</body>
+</html>
