@@ -24,24 +24,6 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-.container-gral{
-    max-width: 100%!important;
-    margin-right: auto!important;
-    margin-left: auto!important;
-}
-
-.col-gral{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.row-gral{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
 .main-titles{
     font-size: 18px;
     text-align: center;
@@ -258,12 +240,17 @@ button{
 }
 
 .instafeed-title i{
-    font-size: 50px;
+    font-size: 45px;
     line-height: 45px;
+    text-decoration: none;
 }
 
-.col-gral i{
+.col i{
     margin: 10px;
+}
+
+.instafeed-title-user{
+    color: rgb(23, 206, 206);
 }
 
 .instafeed-title-user{
@@ -272,9 +259,17 @@ button{
     color: rgb(23, 206, 206);
 }
 
+.instafeed-title-user:hover{
+    color: burlywood;
+}
+
 /*css for card-items*/
+
+/*arreglar las cards*/
+
 .item{
     max-width: 100%;
+    width: 77%;
     margin: 20px;
     border-radius: 6px;
     overflow: hidden;
@@ -282,7 +277,7 @@ button{
     box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
     cursor: default;
     transition: all 400ms ease;
-
+    margin-left: 70px;
 }
 
 
