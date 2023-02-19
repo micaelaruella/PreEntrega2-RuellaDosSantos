@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQs</title>
-
+    <title>Preguntas</title>
     <link rel="icon" href="../icons/icon.png"> 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,77 +17,109 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
     <!--css main-->
-    <link rel="stylesheet" href="./css/styless.css">
+    <link rel="stylesheet" href="../css/styless.css">
 </head>
 <body>
-    <!-- Inicio cabecera -->
-    <header id="header">      
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <!-- Inicio cabecera -->
+      <header id="header">   
+        <!-- Navbar --> 
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
             <div class="container-fluid">
-                <div id="logo">
-                    <a href="./index.html" class="enlace-logo">
-                        <img src="./img/logo.jpg" alt="logo" class="navbar-brand logo">
-                    </a>
+                <!-- <div class="buscador">
+                    <div class="form-group search-container form-vertical-align mb-0"></div>
+                    <input class="form-control search-input" type="search" placeholder="Buscar">
+                    <button type="submit" class="search-input-submit">
+                        <i class="fal fa-search"></i>
+                    </button> 
+                </div>  -->
+                <div id="logo" class="logo-img-container">
+                    <a href="../index.html">
+                        <img src="../img/logo.jpg" alt="logo" class="logo-img">
+                    </a>  
                 </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link" href="../index.html">Inicio</a>
-                        <a class="nav-link" href="./shop.html">Shop</a>
-                        <a class="nav-link" href="./local.html">Locales</a>
-                        <a class="nav-link active" href="./FAQs.html">Preguntas</a>
-                        <a class="nav-link" href="./contact.html">Contacto</a>
-                    </div>
+                
+                <div class="toggler">
+                    <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    >
+                    <span class="navbar-toggler-icon"></span>
+                    </button>   
+                </div>
+                
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="mx-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./local.html">Locales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./FAQs.html">Preguntas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contacto</a>
+                        </li>
+        
+                    </ul>
                 </div>
             </div>
-        </nav>
-
+        </nav>              
     </header>
-    
-    <!-- Fin cabecera -->
+    <!-- Fin de cabecera-->
     <!-- Inicio principal -->
     <main>
         <!-- Sección preguntas frecuentes -->
-        <section class="page-header section-title">
-            <div class="text-center">
-                <h1>Preguntas frecuentes</h1>   
-            </div>
-        </section>
-        <section id="preguntas-frecuentes">
-            <div class="subtitulo-FAQs">
-                <h2>Pagos</h2>
-            </div>
-            <div class="contenido-FAQs">
-                <h4>¿Qué formas de pago puedo aprovechar para realizar mi compra?</h4>
-                <p>Se puede abonar con todas las tarjetas emitidas en Argentina. La cantidad de cuotas sin interés dependerá del convenio de Mercado Pago con el banco al momento de efectuar la compra.</p>
-            </div>
-            <div class="subtitulo-FAQs">
-                <h2>Envios</h2>
-            </div>
-            <div class="contenido-FAQs">
-                <h4>¿Cuál es el costo de envío?</h4>
-                <p>El costo de envío será mostrado en base al total de la compra y la ubicación.<br>El costo de envío es a cargo del consumidor.</p>
-                <h4>¿Dónde puedo recibir mi pedido?</h4>
-                <p>Realizamos envíos a todo el país.</p>
-                <h4>¿Cuánto tarda en llegar el pedido?</h4>
-                <p>El tiempo de entrega dependerá del tipo de envío seleccionado. En general la demora se encuentra entre 3 y 8 días hábiles luego de acreditado el pago para envíos en CABA y para envíos al interior del país es de 3 a 10 días hábiles.</p>
-                <h4>¿Compraste online y tenés dudas acerca de tu paquete?</h4>
-                <p>Para solicitar información acerca del estado de tu envío, dudas, o cualquier otro caso particular; el cliente debe comunicarse a oriannaswimwear@gmail.com</p>
-                <h4>¿Puedo retirar mi compra en algun lugar?</h4>
-                <p>Sí. Podes retirar tu compra por nuestro showroom en Muñiz (Conesa 1298) de Lunes a Viernes de 8h a 20h y San Miguel (Paunero 1434) de Lunes a Viernes de 8h a 20h y Sábados de 9h a 15 h.<br>Es simple; vos hacés tu pedido Online, y nosotros te lo preparamos para que sólo tengas que pasar a buscarlo.<br>Una vez acreditado el pago, recibirás un mail en el que se te informa que tu pedido está esperando ser retirado.<br>Acordate que el nombre ingresado en los datos de compra será el solicitado a la hora de retirar el pedido.</p>
-            </div>
-            
-            <div class="subtitulo-FAQs">
-              <h2>Cambios y devoluciones</h2>  
-            </div>
-            <div class="contenido-FAQs">
-                <h4>Las prendas tienen cambio?</h4>
-                <p>Sí, todas las prendas tienen cambio. Puedes solicitar un cambio hasta 15 días luego de realizada la compra.  *no se aceptan cambios de prendas que hayan sido utilizadas.</p>
-                <h4>¿Que pasa si quiero cambiar un producto?</h4>
-                <p>Las prendas adquiridas online podrán ser cambiadas personalmente en nuestro Showroom siempre que tengan sus respectivas etiquetas y se encuentren en buen estado. En caso de no poder acercarse al showroom contactarse a oriannaswimwear@gmail.com</p> 
-            </div>
+        <div class="container-fluid">
+            <section id="preguntas-frecuentes">
+                <div class="page-header main-titles">
+                    <h1>Preguntas frecuentes</h1>   
+                </div>
+                <div class="subtitulo-FAQs">
+                    <h2>Pagos</h2>
+                </div>
+                <div class="contenido-FAQs">
+                    <h4>¿Qué formas de pago puedo aprovechar para realizar mi compra?</h4>
+                    <p>Se puede abonar con todas las tarjetas emitidas en Argentina. La cantidad de cuotas sin interés dependerá del convenio de Mercado Pago con el banco al momento de efectuar la compra.</p>
+                </div>
+                <div class="subtitulo-FAQs">
+                    <h2>Envios</h2>
+                </div>
+                <div class="contenido-FAQs">
+                    <h4>¿Cuál es el costo de envío?</h4>
+                    <p>El costo de envío será mostrado en base al total de la compra y la ubicación.<br>El costo de envío es a cargo del consumidor.</p>
+                    <h4>¿Dónde puedo recibir mi pedido?</h4>
+                    <p>Realizamos envíos a todo el país.</p>
+                    <h4>¿Cuánto tarda en llegar el pedido?</h4>
+                    <p>El tiempo de entrega dependerá del tipo de envío seleccionado. En general la demora se encuentra entre 3 y 8 días hábiles luego de acreditado el pago para envíos en CABA y para envíos al interior del país es de 3 a 10 días hábiles.</p>
+                    <h4>¿Compraste online y tenés dudas acerca de tu paquete?</h4>
+                    <p>Para solicitar información acerca del estado de tu envío, dudas, o cualquier otro caso particular; el cliente debe comunicarse a oriannaswimwear@gmail.com</p>
+                    <h4>¿Puedo retirar mi compra en algun lugar?</h4>
+                    <p>Sí. Podes retirar tu compra por nuestro showroom en Muñiz (Conesa 1298) de Lunes a Viernes de 8h a 20h y San Miguel (Paunero 1434) de Lunes a Viernes de 8h a 20h y Sábados de 9h a 15 h.<br>Es simple; vos hacés tu pedido Online, y nosotros te lo preparamos para que sólo tengas que pasar a buscarlo.<br>Una vez acreditado el pago, recibirás un mail en el que se te informa que tu pedido está esperando ser retirado.<br>Acordate que el nombre ingresado en los datos de compra será el solicitado a la hora de retirar el pedido.</p>
+                </div>
+                
+                <div class="subtitulo-FAQs">
+                  <h2>Cambios y devoluciones</h2>  
+                </div>
+                <div class="contenido-FAQs">
+                    <h4>¿Las prendas tienen cambio?</h4>
+                    <p>Sí, todas las prendas tienen cambio. Puedes solicitar un cambio hasta 15 días luego de realizada la compra.  *no se aceptan cambios de prendas que hayan sido utilizadas.</p>
+                    <h4>¿Qué pasa si quiero cambiar un producto?</h4>
+                    <p>Las prendas adquiridas online podrán ser cambiadas personalmente en nuestro Showroom siempre que tengan sus respectivas etiquetas y se encuentren en buen estado. En caso de no poder acercarse al showroom contactarse a oriannaswimwear@gmail.com</p> 
+                </div>
+        </div>
+        
         </section>
         <!-- Fin preguntas frecuentes -->
     </main>
@@ -96,14 +127,28 @@
     <!-- Inicio pie de página -->
     <footer>
         <section>        
-            <a href="#logo">Ir al comienzo</a><br>
+            <a href="./FAQs.html">Ir al comienzo</a><br>
             <a href="mailto:oriannaswimwear@gmail.com">Haz click para contactarnos</a>
         </section>
         <p>&copy; Copyright Orianna Swimwear - 2023</p> 
         <p>Todos los derechos reservados.</p>
     </footer>
     <!-- Fin pie de página -->    
+    
     <!-- Link js-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>  
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        var nav = document.querySelector('nav');
+
+        window.addEventListener('scroll', function() {
+            if(window.pageYOffset > 40){
+                nav.classList.add('bg-white', 'shadow');
+            }else{
+                nav.classList.remove('bg-white', 'shadow');
+            }
+        });
+    </script>
 </body>
 </html>
