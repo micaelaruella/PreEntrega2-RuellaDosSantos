@@ -10,8 +10,9 @@ html{
     scroll-behavior: smooth;
 }
 
-h1, h2, h3, h4, h5, h6{
-    font-family: "Open Sans",sans-serif;
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
 }
 
 h1{ font-size: 3.5em;}
@@ -25,8 +26,10 @@ body{
 }
 
 .main-titles{
+    font-size: 23px;
+    line-height: 60px;
+
     margin-top: 140px;
-    font-size: 18px;
     text-align: center;
 }
 
@@ -54,10 +57,11 @@ body{
     background-position: center center;
 }
 
-.toggler{
-    filter: invert(1);
-}
 
+.navbar-toggler{
+    filter: invert(1);
+    border: none;
+}
 .navbar-collapse{
     color: #000000;
 }
@@ -146,10 +150,17 @@ button{
     text-transform: uppercase;
 }
 
-.nav-link.active, .nav-link:hover{
-    background-color: #2c282871;
+.nav-link:hover{
+
     font-weight: bold;
-    color: #ffffff;
+    color: #8aecf3;
+    transition: .5s;
+}
+
+.nav-link.active{
+
+    color: #080808!important;
+    font-weight: bold;
     transition: .5s;
 }
 
@@ -251,38 +262,38 @@ button{
 }
 
 .col i{
-    margin: 10px;
+    margin: 25px;
 }
 
 .instafeed-title-user{
-    color: rgb(23, 206, 206);
-}
-
-.instafeed-title-user{
-    font-weight: bold;
-    font-size: 20px;
+    display: inline-block;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
     color: rgb(23, 206, 206);
 }
 
 .instafeed-title-user:hover{
-    color: burlywood;
+    transition: all 800ms ease;
+    color: rgb(141, 138, 135);
 }
 
 /*css for card-items*/
 
-/*arreglar las cards*/
+#shop-container{
+    text-align: center!important;
+}
 
 .item{
     max-width: 100%;
-    width: 77%;
-    margin: 20px;
+    align-items: center;
+    margin-bottom: 1.5rem !important;
     border-radius: 6px;
     overflow: hidden;
     background: rgba(240, 240, 240, 0.58);
     box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
     cursor: default;
     transition: all 400ms ease;
-    margin-left: 70px;
 }
 
 
@@ -321,6 +332,38 @@ button{
     color: #000000;
 }
 
+#button-product body{
+    background-color: #eee;
+}
+
+#button-product{
+    margin: 30px 0;
+    text-align: center;
+}
+
+#button-product button{
+    background-color: transparent;
+    color: #444;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    border: 2px solid #eee;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all 1s ease;
+    box-shadow: .5rem .5rem 1rem #ccc, 
+    -.5rem -.5rem 1rem #fff;
+}
+
+#button-product button:hover{
+    box-shadow: .5rem .5rem 1rem #fff, 
+    -.5rem -.5rem 1rem #ccc;
+}
+
+#button-product button.active{
+    box-shadow: inset .2rem .2rem 1rem #ccc, 
+    inset -.2rem -.2rem 1rem #ccc;
+}
+
 /*css for local*/
 
 #direction h3{
@@ -334,6 +377,10 @@ button{
     text-align: center;
     font-size: 30px;
     color: #040404;
+}
+
+.local{ 
+    text-align: center;
 }
 
 .bold-text:hover{
@@ -350,14 +397,21 @@ button{
     font-weight: bold;
 }
 
-@media (min-width: 450px) {
+/* @media (max-width:540px){
+    .iframe{
+        width: 79px;
+        
+    }
+} */
+
+
+@media (min-width: 1250px) {
 
     #local-container{
         max-width: 100%;
         max-height: 100%;
-
         text-align: center;
-        padding: 30px 12px;
+        
     }
     
     .info-local{
@@ -370,7 +424,7 @@ button{
         max-width: 100%;
     }
     
-    .iframe{    
+    .iframe{ 
         min-width: 50vw;
         padding: 20px;
     }
