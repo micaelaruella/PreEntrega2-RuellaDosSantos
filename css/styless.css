@@ -278,6 +278,13 @@ button{
     color: rgb(141, 138, 135);
 }
 
+@media (max-width:662px){
+    .instafeed-title-user{
+        font-size: 15px;
+    }
+}
+
+
 /*css for card-items*/
 
 #shop-container{
